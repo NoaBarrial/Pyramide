@@ -1,12 +1,18 @@
 class Pyramide {
 
-    constructor(length){
+    constructor(length,hight){
         this.length = length;
+        this.hight = hight;
     }
 
     getSideLength (){
 
         return this.length;
+    }
+
+    getSurfaceArea(){
+
+        return
     }
 
 
