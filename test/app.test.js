@@ -14,9 +14,9 @@ describe('Phase de test pour les fonction de la pyramide', function() {
         done();
     });
     
-    it('3. The volume of the Cube', function(done) {
-        let c3 = new Cube(7);
-        expect(c3.getVolume()).to.equal(343);
+    it('3. The volume of the Pyramide', function(done) {
+        let p3 = new Pyramide((5,8));
+        expect(p3.getVolume()).to.equal(28.8674);
         done();
     });
     
