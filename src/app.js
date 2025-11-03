@@ -12,7 +12,12 @@ class Pyramide {
 
     getSurfaceArea(){
 
-        return (Math.sqrt(3)/4 * this.length**2 + (3/2) * this.length * this.hight)
+        return (Math.sqrt(3)/4 * this.length**2 + (3/2) * this.length * Math.sqrt(this.hight**2+(this.length * Math.sqrt(3)) / 6)**2);
+    }
+
+    getVolume(){
+
+        return 
     }
 
 
