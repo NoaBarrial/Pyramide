@@ -17,7 +17,8 @@ class Pyramide {
 
     getVolume(){
 
-        return 
+        return (Math.sqrt(3) / 12) * this.length**2 * this.hight;
+
     }
 
 
