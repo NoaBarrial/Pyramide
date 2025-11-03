@@ -3,14 +3,14 @@ const expect = require('chai').expect;
 
 describe('Phase de test pour les fonction de la pyramide', function() {
     it('1. The side length of the Pyramide', function(done) {
-        let p1 = new pyramide(2);
+        let p1 = new Pyramide(2,5);
         expect(p1.getSideLength()).to.equal(2);
         done();
     });
     
-    it('2. The surface area of the Cube', function(done) {
-        let c2 = new Cube(5);
-        expect(c2.getSurfaceArea()).to.equal(150);
+    it('2. The surface area of the Pyramide', function(done) {
+        let p2 = new Pyramide(5,8);
+        expect(p2.getSurfaceArea()).to.equal(71.8003);
         done();
     });
     
